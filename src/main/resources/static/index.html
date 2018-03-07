@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Time WebSocket</title>
+    <link href="/application.css" rel="stylesheet">
+
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/application.js"></script>
+</head>
+<body>
+
+
+<div id="content">
+    <div id="controls">
+        <button id="connect_random" class="connect" type="button">Connect to Random Channel</button>
+        <button id="connect_bitcoin" class="connect" type="button">Connect to Bitcoin Channel</button>
+        <button id="disconnect" type="button" disabled="disabled">Disconnect</button>
+    </div>
+
+    <div id="data">
+        <span class="label">Next update: </span>
+        <div class="value" id="nextUpdate">-</div>
+        <span class="label"> sec.</span><br>
+
+        <span class="label">Timestamp: </span>
+        <div class="value" id="date">-</div><br>
+
+        <span class="label">Value: </span>
+        <div class="value" id="value">-</div>
+    </div>
+
+</div>
+</body>
+</html>

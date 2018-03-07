@@ -1,0 +1,20 @@
+.disconnected {
+    background-color: white;
+}
+
+.connected {
+    background-color: #97de97;
+
+}
+
+#data {
+    margin: 10px;
+}
+
+.label {
+    display: inline;
+}
+
+.value {
+    display: inline;
+}

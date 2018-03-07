@@ -1,0 +1,7 @@
+{
+  "runtime": {
+    "majorVersion": "8"
+  },
+  "command": "java -jar real-time-websocket-1.0-SNAPSHOT.jar",
+  "notes": "Real Time WebSocket enabled application DEMO"
+}
