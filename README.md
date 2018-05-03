@@ -1,6 +1,11 @@
 # real-time-websocket
 Java Web Application using WebSocket and Spring Boot
 
+
+Article about this demo
+-----------------------
+https://developer.oracle.com/java/real-time-java-websocket-app
+
 Build
 -----
 <pre>
